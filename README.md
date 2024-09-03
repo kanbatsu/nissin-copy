@@ -1,6 +1,36 @@
-# Getting Started with Create React App
+# Nissin Copy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is just an exercice, the goal is to recreate the [Nissin website](https://www.nissin.com/jp/) (Japanese Version)
+
+## TODO :
+
+Actually this website isn't really finish, its remains to do :
+- Updating cards Y position to keep a horizontal line in front of the camera
+- Finishing the footer implementation for the Mobile
+- Add the smoke effect when opening a card
+- Detecting the scroll direction to spin in two ways
+- and more !
+
+# Installing
+
+If you want to make this app run, you'll need to add assets to the public/assets folder and of course you can adapt the
+differents URL of youtube Videos
+
+You need to add a black and white gradient to the public folder, and call it gradient.png (see the .gitignore), it will made the white light in the center fade out, depending on your gradient of course.
+
+For the rest, it's kindly the same as a react app :
+
+```bash
+git clone https://github.com/kanbatsu/nissin-copy.git
+```
+
+after ...
+```bash
+cd nissin-copy
+npm install
+```
+
+and then, what was told before (assets etc...), and you're ready !
 
 ## Available Scripts
 
@@ -38,33 +68,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
