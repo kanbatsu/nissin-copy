@@ -3,7 +3,8 @@ import {Canvas, useFrame, useLoader, useThree} from "@react-three/fiber";
 import Card from "./Card";
 import * as THREE from "three";
 import { TextureLoader} from "three";
-import {ScrollControls, useScroll} from "@react-three/drei";
+// import {ScrollControls, useScroll} from "@react-three/drei";
+import {ScrollControls, useScroll} from "./ScrollControls";
 import {easing} from "maath";
 import "../utils";
 
@@ -129,7 +130,7 @@ function Rig({lookAtY, togglePlayer, ...props}) {
             }
             else
             {
-                ref.current.rotation.y += scroll.delta * (Math.PI * 2)// Rotate contents
+                ref.current.rotation.y += scroll.delta * (Math.PI * 2) * scroll.direction// Rotate contents
             }
 
             state.events.update() // Raycasts every frame rather than on pointer-move
